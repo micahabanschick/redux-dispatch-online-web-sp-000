@@ -1,3 +1,5 @@
+let state = {count: 0}
+
 function changeState(state, action){
   switch (action.type) {
     case 'INCREASE_COUNT':
